@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap');
+:root {
+    --backgrond: #000;
+    --text-color: #FFF;
+    --button: #8257E5;
+    --border: #29292E;
+    --border-menu-mobile: #A8A8B3;
+    --text-color-menu-mobile: #E1E1E6;
+  }
+
+  body{
+      background-color: var(--backgrond)
+  }
+
+.logo{
+    
+}
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 30px;
+
+}
+
+#navbar > ul {
+    display: flex;
+    justify-content: center;
+    padding-left: 200px;
+}
+
+.nav-item{
+    margin: 10px;
+    color: #FFF;
+
+}
+
+.nav-item{
+    font-family: Manrope;
+}
+
+.nav-item:hover{
+    color: var(--button);
+}
+
+.cafe{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+    margin-right: 100px;
+    
+}
+
+.cafe>a:hover{
+    background-color: #8257E5;
+}
+
+.coffetext{
+    color: #FFF;
+    font-family: Manrope;
+    font-size:11px;
+    font-weight: 800;
+    
+}
+
+.coffetext{
+    border: solid 1px #8257E5;
+    padding: 15px 30px;
+    border-radius:5px
+}
+
+
+.imgcoffe{
+    display: flex;
+    justify-content: center;
+
+}
+
+.titulo1{
+    display: flex;
+    justify-content: center;
+    font-family: Manrope;
+    font-size: 80px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.titulo2{
+    display: flex;
+    justify-content: center;
+    font-family: Manrope;
+    font-size: 80px;
+    font-weight: bold;
+    color: #8257E5;
+}
+
